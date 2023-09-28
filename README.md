@@ -37,5 +37,8 @@ php artisan serve
 
 # Finally, open your web browser
 http://localhost:8000
-```
 
+# Default access
+E-mail: admin@gmail.com
+Password: password
+```
