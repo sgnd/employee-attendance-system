@@ -1,4 +1,4 @@
-# Employee Attendance System with QR Code
+# Employee Attendance System
 
 ## Features
 - [x] CRUD Positions (Manage Job Positions)  
