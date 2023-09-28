@@ -24,90 +24,18 @@ git clone https://github.com/sgnd/employee-attendance-system.git
 cd employee-attendance-system
 
 # Install all required packages
-
 composer install
 
-# Choose one of the following based on your operating system:
-
-# 1. For Windows:
-
-copy .env.example .env
-
-# 2. For Unix (Ubuntu, macOS, and others):
-
+# Copy example env to .env and configure the file by specifying the database name (DB_DATABASE), username, and password
 cp .env.example .env
-
-# Next, configure the .env file by specifying the database name (DB_DATABASE), username, and password.
-
-# Create a new database either from phpMyAdmin or using command-line tools with the same name as specified in DB_DATABASE in the .env file.
 
 # Generate a new application key, run migrations, seed the database, and start the development server:
-
-php artisan key:generate
-
-php artisan migrate
-
-php artisan db:seed
-
-php artisan serve
-
-# Finally, open your web browser and visit http://localhost:8000/
-
-```
-
-## How to Install/Use (English)
-
--   Clone this repository
-
-```sh
-
-git clone https://github.com/muhammadpauzi/employee-attendance-system.git
-
-# Ensure you are inside the project folder
-
-cd employee-attendance-system
-
-```
-
--   Install all required packages
-
-```sh
-
-composer install
-
-```
-
--   Copy/rename the `.env.example` file to `.env`
-
-```sh
-
-# For Windows:
-
-copy .env.example .env
-
-# For Unix (Ubuntu, macOS, and others):
-
-cp .env.example .env
-
-```
-
--   Configure the `.env` file
-
-    <br>
-
-    Open your `.env` file and update the database name (DB_DATABASE), username (DB_USERNAME), and password (DB_PASSWORD) fields according to your database configuration.
-
--   Create the database
-
-    <br>
-
-    Create a database with the name specified in the DB_DATABASE field in the `.env` file.
-
--   Run artisan commands
-```sh
 php artisan key:generate
 php artisan migrate
 php artisan db:seed
 php artisan serve
+
+# Finally, open your web browser
+http://localhost:8000
 ```
--   Access the application by going to http://localhost:8000
+
