@@ -9,7 +9,7 @@
 - [x] Export Data to Excel and CSV Formats  
 - [x] And More...  
 
-## Installation Instructions (Local)
+## Installation Instructions
 
 **Prerequisites**
 - Git  
@@ -39,6 +39,6 @@ php artisan serve
 http://localhost:8000
 
 # Default access
-E-mail: admin@gmail.com
-Password: password
+email: admin@gmail.com
+password: password
 ```
