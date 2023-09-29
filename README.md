@@ -11,7 +11,7 @@
 
 ## Installation Instructions
 
-**Prerequisites**
+**Prerequisites**  
 - Git  
 - Composer  
 - PHP v8.1  
