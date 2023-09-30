@@ -1,13 +1,13 @@
 # Employee Attendance System
 
 ## Features
-- [x] CRUD Positions (Manage Job Positions)  
-- [x] CRUD Users (Admins, Operators, and Employees)  
-- [x] CRUD Holidays (Manage Holidays)  
-- [x] CRUD Attendances (Track Employee Attendance with QR Codes or Buttons)  
-- [x] Utilizes Datatables (Powered by Livewire)  
-- [x] Export Data to Excel and CSV Formats  
-- [x] And More...  
+- [x] CRUD Positions (Manage Job Positions)
+- [x] CRUD Users (Admins, Operators, and Employees)
+- [x] CRUD Holidays (Manage Holidays)
+- [x] CRUD Attendances (Track Employee Attendance with QR Codes or Buttons)
+- [x] Utilizes Datatables (Powered by Livewire)
+- [x] Export Data to Excel and CSV Formats
+- [x] And More...  
 
 ## Installation Instructions
 
